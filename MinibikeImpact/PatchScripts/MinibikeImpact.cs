@@ -32,7 +32,7 @@ public class MinibikeImpact : IPatcherMod
          if (instruction != null && instruction.Previous.OpCode == OpCodes.Ldc_I4 && instruction.Previous.Operand.Equals(0x8000))
          {
             Logging.LogInfo(string.Format("Found value to modify:  {0}", instruction.Previous.Operand));
-            instruction.Previous.Operand = 15;
+            instruction.Previous.Operand = -1;
             return true;
          }
       }
