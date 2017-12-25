@@ -1,0 +1,12 @@
+<mod>
+	<info>
+		<author>TormentedEmu</author>
+		<name>ItemEatDelayRemover</name>
+		<description>Removes an animation delay check that can cause items to be consumed without taking effect</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.2</launcher_version>
+	</info>
+	<config_mods>
+	</config_mods>
+</mod>
