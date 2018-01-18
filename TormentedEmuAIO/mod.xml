@@ -1,0 +1,12 @@
+<mod>
+	<info>
+		<author>TormentedEmu</author>
+		<name>TormentedEmu's All-in-One</name>
+		<description>All of my SDX mods bundled in one package for the Client version</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.2</launcher_version>
+	</info>
+	<config_mods>
+	</config_mods>
+</mod>
