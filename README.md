@@ -13,5 +13,7 @@ ItemEatDelayRemover - Removes an animation delay check that can cause certain it
 
 ItemActionLauncherFix - Fixes a graphical glitch that leaves a crossbow bolt in the right hand when using modded crossbows.  Client side only required.
 
+ConsoleCommands - Adds the Mods.dll to the list of assemblies to be scanned for adding new commands to the game.  Thanks to StompyNZ for the help with this mod.
+
 
 TormentedEmuAIO - All of my SDX mods bundled in one package for the Client version.  Simplifies SDX modding if you want to include all of the mods.  For best results, do not use this package with any of my other mods listed above.
