@@ -43,21 +43,11 @@ public class EnableEditMode : IPatcherMod
 
       foreach (TypeDefinition td in gameManager.NestedTypes)
       {
-         //Logging.LogInfo(string.Format("NestedTypes: {0}, FullName: {1}", td.Name, td.FullName));
-         if (td.HasInterfaces)
-         {
-            foreach (var inf in td.Interfaces)
-            {
-               //Logging.LogInfo(string.Format("  Interface: {0}, {1}", inf.Name, inf.FullName));
-            }
-         }
-
          MethodDefinition moveNext = td.Methods.FirstOrDefault(m => m.Name == "MoveNext");
          if (moveNext != null)
          {
             foreach (Instruction inst in moveNext.Body.Instructions)
             {
-               //Logging.LogInfo(string.Format("     Inst OpCode: {0} Operand: {1}", inst.OpCode, inst.Operand));
                if (inst.OpCode == OpCodes.Ldstr && inst.Operand.ToString() == "StartAsServer" &&
                    inst.Next.OpCode == OpCodes.Call && inst.Next.Operand.ToString() == "System.Void Log::Out(System.String)")
                {
