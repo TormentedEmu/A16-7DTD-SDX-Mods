@@ -1,0 +1,12 @@
+<mod>
+	<info>
+		<author>TormentedEmu</author>
+		<name>EmuRecipeManager</name>
+		<description>A patch mod for workstations to limit viewing only the recipes that are created within it and are unlocked.</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.2</launcher_version>
+	</info>
+	<config_mods>
+	</config_mods>
+</mod>
