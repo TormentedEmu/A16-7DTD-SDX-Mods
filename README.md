@@ -1,5 +1,5 @@
 # 7DTD-SDX-Mods
-SDX Mods for the game 7 Days to Die
+SDX Mods for the game 7 Days to Die Alpha 16.4 ONLY
 
 Using SDX 0.7.2 - http://7d.l9000.co.uk/SDTD/SDTD.asmx/GetLatestSdxDownload
 
